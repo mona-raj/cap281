@@ -1,0 +1,1 @@
+This repo contains all the code practiced in CAP281 Object -Oriented Programming - Laboratory using C++ in term 2 at LPU.
