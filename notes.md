@@ -1,6 +1,6 @@
 ## Basics
 ### I/O
-```
+```cpp
 #include<iostream>
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 ::  scope resolution operator
 
 To avoid using ::, we use -- using namespace std
-```
+```cpp
 #include<iostream>
 using namespace std;
 int main()
@@ -25,7 +25,7 @@ int main()
 * Instead of using '\n' we can use endl 
 * Use multiple << | cin << a << b | to append 
 
-```
+```cpp
     //Getting data
     cout << "Enter name : ";
     cin >> name;
@@ -34,18 +34,18 @@ int main()
 
     //Displaying data
     cout << endl << "Data entered is : " << endl << "Name : " << name << endl << "Age : " << age << endl;
-
 ```
+
 ### Common Problems
 1. swap using tmp
-    ```
+    ```cpp
     tmp = a;
     a = b;
     b = tmp;
     ```
 
 2. swap without tmp
-    ```
+    ```cpp
     a += b;
     b = a - b;
     a = a - b;
