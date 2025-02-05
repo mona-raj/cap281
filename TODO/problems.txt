@@ -1,0 +1,11 @@
+1. Input number from user display whether n is prime or not
+2. pattern input no of lines
+    *
+    *   *
+    *   *   *
+    *   *   *   *
+
+    1
+    121
+    12321
+    1234321
